@@ -1,0 +1,81 @@
+
+/* RESET */
+/*fungsi margin adalah mengatur jarak antara satu element dengan element lainn dan tidak mempengaruhi ukuran isi elemen
+Fungsi Padding adalah mengatur jarak isi (teks/gambar) ke tepi elemen dan  membuat isi tidak menempel ke pinggir
+Fungsi box-sizing adalah mengatur cara browser menghitung ukuran elemen(width dan height)*/
+
+* {margin: 0; padding: 0;box-sizing: border-box;}
+
+/* GLOBAl */
+/*Fungsi font-family adalah menentukan jenis huruf(font) yag digunakan pada teks di website.
+fungsi sans-serif adalah membuat huruf terlihat lebih bersih dan modern dan Mudah dibaca di layar(Web,HP
+Fungsi color adalah mengatur warna teks dan bisa pakai nama warna,hex,rgb,dll
+Fungsi line-height adalah mengatur jarak antar baris teks semakin besar nilainya teksnya semakin renggang
+dan membantu kenyamanan membaca.
+
+Fungsi width adalah menentukan lebar elemen
+Fungsi Max-wudth adalah menentukan batas maksimal lebar elemen.
+fungsi margin adalah mengatur jarak antara satu element dengan element lainn dan tidak mempengaruhi ukuran isi elemen.
+fungsi text-decoration adalah mengatur hiasan pada teks.
+Fungsi color adalah mengatur warna teks dan bisa pakai nama warna,hex,rgb,dll*/
+
+body {font-family: Arial, sans-serif;color:rgb(19, 78, 78);line-height: 1.6;}
+.container {width: 90%;max-width: 900px;margin: auto;}
+a {text-decoration: none;color: inherit;}
+
+/* HEADER */
+/*Fungsi background adalah mengatur latar belakang elemen.
+Fungsi color adalah mengatur warna teks dan bisa pakai nama warna,hex,rgb,dll.
+Fungsi Padding adalah mengatur jarak isi (teks/gambar) ke tepi elemen dan  membuat isi tidak menempel ke pinggir.
+
+Fungsi font-size adalah mengatur ukuran teks.
+fungsi margin-right adalah mengatur jarak di sisi kanan elemen*/
+.headre {backgroud: #1e3a8a;color:white;padding: 15px 0;}
+.logo {font-size: 22px;}
+.nav a {margin-right: 15px;}
+
+/* HERO */
+/**Fungsi background adalah mengatur latar belakang elemen.
+funsgsi text-align adalah mengatur perataan teks secara horizontal di dalam suatu elemen.
+Fungsi Padding adalah mengatur jarak isi (teks/gambar) ke tepi elemen dan  membuat isi tidak menempel ke pinggir.
+
+margin-bottom memberikan ruang kosong di bawah elemen*/
+.hero {background: #e5e7eb;text-align: center;padding: 60px 0;}
+.hero h2 {margin-bottom: 15px;}
+
+/* BUTTON */
+/*Fungsi display adalah menentukan elemen yang ditampilkan. Dan digunakan untuk mengatur perilaku elemen di halaman.
+Fungsi margin-top adalah mengatur jarak luar di bagian atas elemen.
+Fungsi Padding adalah mengatur jarak isi (teks/gambar) ke tepi elemen dan  membuat isi tidak menempel ke pinggir.
+Fungsi color adalah mengatur warna teks dan bisa pakai nama warna,hex,rgb,dll.
+Fungsi Border-radius adalah membuat sudut elemen menjadi membulat.*/
+.btn {display: inline-block;margin-top: 20px;padding: 10px;background: #1e3a8a;
+    color: white;border-radius: 40px}
+
+/* SECTION */
+/*Fungsi Padding adalah mengatur jarak isi (teks/gambar) ke tepi elemen dan  membuat isi tidak menempel ke pinggir.
+margin-bottom memberikan ruang kosong di bawah elemen.
+Fungsi background adalah mengatur latar belakang elemen.*/
+.section {padding: 50px 0;}
+.section h2 {margin-bottom: 15px;}
+.ligth {background: #f9fafb;}
+
+/* LIST */
+/*Fungsi margin-left adalah mengatur jarak luar di sisi kiri suatu elemen.
+margin-bottom memberikan ruang kosong di bawah elemen*/
+.list {margin-left: 20px;}
+.list li {margin-bottom: 8px;}
+
+/* CTA*/
+/*Fungsi background adalah mengatur latar belakang elemen.
+Fungsi color adalah mengatur warna teks dan bisa pakai nama warna,hex,rgb,dll.
+funsgsi text-align adalah mengatur perataan teks secara horizontal di dalam suatu elemen.
+Fungsi Padding adalah mengatur jarak isi (teks/gambar) ke tepi elemen dan  membuat isi tidak menempel ke pinggir.*/
+.cta {background: #1e3a8a;color: #e5e7eb;text-align: center;padding: 15px;}
+
+/* FOOTER */
+/*Fungsi background adalah mengatur latar belakang elemen.
+Fungsi color adalah mengatur warna teks dan bisa pakai nama warna,hex,rgb,dll.
+funsgsi text-align adalah mengatur perataan teks secara horizontal di dalam suatu elemen.
+Fungsi Padding adalah mengatur jarak isi (teks/gambar) ke tepi elemen dan  membuat isi tidak menempel ke pinggir.*/
+.footer {background: #111827;color:beige;text-align: center;padding: 15px 0;}
