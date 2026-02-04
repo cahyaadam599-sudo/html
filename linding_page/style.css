@@ -79,3 +79,10 @@ Fungsi color adalah mengatur warna teks dan bisa pakai nama warna,hex,rgb,dll.
 funsgsi text-align adalah mengatur perataan teks secara horizontal di dalam suatu elemen.
 Fungsi Padding adalah mengatur jarak isi (teks/gambar) ke tepi elemen dan  membuat isi tidak menempel ke pinggir.*/
 .footer {background: #111827;color:beige;text-align: center;padding: 15px 0;}
+@media (max-width: 768px) {
+    .header-flex, .footer-flex {flex-direction: column;text-align: center;}
+    .header nav a {margin: 10px;}
+    .grid-program {grid-template-columns:repeat(2 , 1fr);}
+    .flex-keunggulan {flex-direction: column;}
+    .hero {height: auto;padding: 60px 0; text-align: center;}
+}
